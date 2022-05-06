@@ -1,0 +1,1 @@
+export class Todo{static fromJson({tarea:o,id:t,completado:e,creado:a}){const c=new Todo(o);return c.id=t,c.completado=e,c.creado=a,c}constructor(o){this.tarea=o,this.id=(new Date).getTime(),this.completado=!1,this.creado=new Date}}
